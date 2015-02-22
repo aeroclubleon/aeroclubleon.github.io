@@ -15,3 +15,6 @@ markdown: kramdown
 
 # Incluir el directorio de paginas
 include: ['_pages']
+
+# COnfigura el sitio para que funcione ok en Github Pages
+safe: true
