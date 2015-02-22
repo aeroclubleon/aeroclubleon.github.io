@@ -1,10 +1,10 @@
 # Site settings
 title: Real Aero Club de León
-email: your-email@domain.com
+email: secretaria@realaeroclubdeleon.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  El Real Aero Club de León es una asociación privada de León de carácter deportivo, 
+  recreativo, cultural y de ocio creada en 1951. Actualmente dispone de dos sedes, 
+  una de ellas en León capital y la otra en el municipio de la Virgen del Camino.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
