@@ -3,8 +3,8 @@ title: Real Aero Club de León
 email: secretaria@realaeroclubdeleon.com
 description: > # this means to ignore newlines until "baseurl:"
   El Real Aero Club de León es una asociación privada de León de carácter deportivo, 
-  recreativo, cultural y de ocio creada en 1951. Actualmente dispone de dos sedes, 
-  una de ellas en León capital y la otra en el municipio de la Virgen del Camino.
+  recreativo, cultural y de ocio creada en 1951, con sedes en León capital y 
+  en el municipio de la Virgen del Camino.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: AeroClub_Leon
