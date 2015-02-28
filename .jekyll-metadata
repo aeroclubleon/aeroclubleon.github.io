@@ -19,12 +19,11 @@
   mtime: 2015-02-22 18:33:54.014832610 +01:00
   deps: []
 "/home/miguel/web/realaeroclubdeleon.com/index.html":
-  mtime: 2015-02-23 18:12:50.044261459 +01:00
+  mtime: 2015-02-26 20:23:04.240366612 +01:00
   deps:
   - "/home/miguel/web/realaeroclubdeleon.com/_includes/head.html"
   - "/home/miguel/web/realaeroclubdeleon.com/_includes/header.html"
   - "/home/miguel/web/realaeroclubdeleon.com/_includes/footer.html"
-  - "/home/miguel/web/realaeroclubdeleon.com/_layouts/default.html"
   - "/home/miguel/web/realaeroclubdeleon.com/_layouts/home.html"
 "/home/miguel/web/realaeroclubdeleon.com/_layouts/post.html":
   mtime: 2015-02-22 18:33:54.014832610 +01:00
@@ -33,7 +32,7 @@
   mtime: 2015-02-22 20:20:40.786717877 +01:00
   deps: []
 "/home/miguel/web/realaeroclubdeleon.com/_includes/head.html":
-  mtime: 2015-02-22 19:57:47.174742476 +01:00
+  mtime: 2015-02-23 18:16:10.848257863 +01:00
   deps: []
 "/home/miguel/web/realaeroclubdeleon.com/_includes/header.html":
   mtime: 2015-02-22 18:46:08.498819457 +01:00
@@ -47,7 +46,7 @@
   - "/home/miguel/web/realaeroclubdeleon.com/_includes/footer.html"
   - "/home/miguel/web/realaeroclubdeleon.com/_layouts/default.html"
 "/home/miguel/web/realaeroclubdeleon.com/imagenes/piscina.jpg":
-  mtime: 2015-02-23 18:09:24.064265148 +01:00
+  mtime: 2015-02-23 18:43:08.204228899 +01:00
   deps: []
 "/home/miguel/web/realaeroclubdeleon.com/css/foundation.css":
   mtime: 2015-02-22 20:02:12.830737719 +01:00
@@ -251,5 +250,22 @@
   - "/home/miguel/web/realaeroclubdeleon.com/_includes/footer.html"
   - "/home/miguel/web/realaeroclubdeleon.com/_layouts/default.html"
 "/home/miguel/web/realaeroclubdeleon.com/css/mis-estilos.css":
-  mtime: 2015-02-23 18:15:33.344258535 +01:00
+  mtime: 2015-02-28 18:17:20.576049184 +01:00
+  deps: []
+"/home/miguel/web/realaeroclubdeleon.com/_pages/entidades.md":
+  mtime: 2015-02-23 18:29:34.056243479 +01:00
+  deps:
+  - "/home/miguel/web/realaeroclubdeleon.com/_layouts/page.html"
+  - "/home/miguel/web/realaeroclubdeleon.com/_includes/head.html"
+  - "/home/miguel/web/realaeroclubdeleon.com/_includes/header.html"
+  - "/home/miguel/web/realaeroclubdeleon.com/_includes/footer.html"
+  - "/home/miguel/web/realaeroclubdeleon.com/_layouts/default.html"
+"/home/miguel/web/realaeroclubdeleon.com/_layouts/home.html":
+  mtime: 2015-02-28 18:17:20.576049184 +01:00
+  deps: []
+"/home/miguel/web/realaeroclubdeleon.com/imagenes/escudo.jpg":
+  mtime: 2014-05-09 22:46:21.000000000 +02:00
+  deps: []
+"/home/miguel/web/realaeroclubdeleon.com/imagenes/escudo500x500.jpg":
+  mtime: 2015-02-28 18:23:02.284066202 +01:00
   deps: []
