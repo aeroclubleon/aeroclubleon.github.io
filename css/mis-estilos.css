@@ -6,3 +6,17 @@
 .escudo {
 	text-align: center;
 }
+
+.item {
+	width: 33%;
+	padding:10px;
+}
+
+.descripcion-item-destacado {
+	text-align: center;
+	margin-top: 10px;
+}
+
+.descripcion-item-destacado h5 {
+	font-size: 0.9rem;
+}

@@ -102,18 +102,42 @@
          
      
             <div class="large-8 columns">
-              <div class="row">
+              <div id="container">
      
-                <div class="large-4 small-6 columns">
-                  <img src="http://placehold.it/1000x1000&text=Thumbnail">
+                <div class="item">
+                  <img src="/imagenes/escuelaTenis.jpg">
+     
+                  <div class="descripcion-item-destacado">
+                    <h5>Escuela de tenis y padel</h5>
+                  </div>
+                </div>
+
+                <div class="item">
+                  <img src="/imagenes/equiposFutbol.jpg">
+     
+                  <div class="descripcion-item-destacado">
+                    <h5>Equipos de fútbol</h5>
+                  </div>
+                </div>     
+
+                <div class="item">
+                  <img src="/imagenes/teamNatacion.jpg">
+     
+                  <div class="descripcion-item-destacado">
+                    <h5>Equipos de natación</h5>
+                  </div>
+                </div>                             
+     
+                <div class="item">
+                  <img src="http://placehold.it/500x500&text=Thumbnail">
      
                   <div class="panel">
-                    <h5>Item Name</h5>
+                    <h5>Item NameItem NameItem NameItem NameItem NameItem NameItem NameItem NameItem NameItem NameItem NameItem NameItem Name</h5>
                     <h6 class="subheader">$000.00</h6>
                   </div>
                 </div>
      
-                <div class="large-4 small-6 columns">
+                <div class="item">
                   <img src="http://placehold.it/500x500&text=Thumbnail">
      
                   <div class="panel">
@@ -122,7 +146,7 @@
                   </div>
                 </div>
      
-                <div class="large-4 small-6 columns">
+                <div class="item">
                   <img src="http://placehold.it/500x500&text=Thumbnail">
      
                   <div class="panel">
@@ -131,7 +155,7 @@
                   </div>
                 </div>
      
-                <div class="large-4 small-6 columns">
+                <div class="item">
                   <img src="http://placehold.it/500x500&text=Thumbnail">
      
                   <div class="panel">
@@ -140,16 +164,7 @@
                   </div>
                 </div>
      
-                <div class="large-4 small-6 columns">
-                  <img src="http://placehold.it/500x500&text=Thumbnail">
-     
-                  <div class="panel">
-                    <h5>Item Name</h5>
-                    <h6 class="subheader">$000.00</h6>
-                  </div>
-                </div>
-     
-                <div class="large-4 small-6 columns">
+                <div class="item">
                   <img src="http://placehold.it/500x500&text=Thumbnail">
      
                   <div class="panel">
@@ -216,6 +231,19 @@
      
         </div>
       </div>
+
+
+<script>
+$(function() {
+  var $container = $('#container').imagesLoaded( function() {
+    $container.isotope({
+      // options
+      itemSelector: '.item',
+      layoutMode: 'fitRows'
+    }); 
+  });
+});  
+</script>   
     
 
     {% include header.html %}
