@@ -35,7 +35,7 @@
   mtime: 2015-02-28 18:41:19.560120850 +01:00
   deps: []
 "/home/miguel/web/realaeroclubdeleon.com/_includes/header.html":
-  mtime: 2015-02-22 18:46:08.498819457 +01:00
+  mtime: 2015-02-28 19:15:21.144222527 +01:00
   deps: []
 "/home/miguel/web/realaeroclubdeleon.com/_pages/about.md":
   mtime: 2015-02-22 19:34:23.326767616 +01:00
@@ -261,7 +261,7 @@
   - "/home/miguel/web/realaeroclubdeleon.com/_includes/footer.html"
   - "/home/miguel/web/realaeroclubdeleon.com/_layouts/default.html"
 "/home/miguel/web/realaeroclubdeleon.com/_layouts/home.html":
-  mtime: 2015-02-28 19:08:39.900202543 +01:00
+  mtime: 2015-02-28 19:13:29.472216965 +01:00
   deps: []
 "/home/miguel/web/realaeroclubdeleon.com/imagenes/escudo.jpg":
   mtime: 2014-05-09 22:46:21.000000000 +02:00
@@ -283,4 +283,13 @@
   deps: []
 "/home/miguel/web/realaeroclubdeleon.com/imagenes/teamNatacion.jpg":
   mtime: 2014-11-09 22:50:30.000000000 +01:00
+  deps: []
+"/home/miguel/web/realaeroclubdeleon.com/recursos/estatutos.pdf":
+  mtime: 2014-10-13 13:54:37.000000000 +02:00
+  deps: []
+"/home/miguel/web/realaeroclubdeleon.com/recursos/historia_aero.pdf":
+  mtime: 2014-10-13 13:24:19.000000000 +02:00
+  deps: []
+"/home/miguel/web/realaeroclubdeleon.com/recursos/rri.pdf":
+  mtime: 2014-10-13 13:55:51.000000000 +02:00
   deps: []
