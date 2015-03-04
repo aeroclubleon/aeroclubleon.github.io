@@ -18,3 +18,7 @@ include: ['_pages']
 
 # COnfigura el sitio para que funcione ok en Github Pages
 safe: true
+
+collections:
+  paginas:
+    output: true

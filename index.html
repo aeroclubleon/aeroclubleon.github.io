@@ -2,24 +2,214 @@
 layout: home
 ---
 
-<div class="home">
+
+<div class="row" id="contenedor-general">
+
+  <img src="/imagenes/piscina.jpg" style="width: 100%">
+
+  <div class="large-12 columns">
+
+
+    <h2>Avisos</h2>
+
+    <div id="contenedor-avisos" class="contenedor">
+
+      <p>Se comunica a los sres. socios que debido al cambio de concesionario a partir del día 2 de febrero los servicios de cafetería y bar-restaurante de las instalaciones de la Virgen del Camino permanecerán cerrados hasta nuevo aviso. Rogamos disculpen las molestias.</p>
+
+    </div>
+
+    <h2>Destacado</h2>  
+
+    <div id="contenedor-destacados" class="contenedor">
+
+      <div class="item">
+        <a href="/escuela-tenis-padel"><img src="/imagenes/escuelaTenis.jpg"></a>
+
+        <div class="descripcion-item-destacado">
+          <h5><a href="/escuela-tenis-padel">Escuela de tenis y padel</a></h5>
+        </div>
+      </div>
+
+      <div class="item">
+        <a href="/equipos-de-futbol"><img src="/imagenes/equiposFutbol.jpg"></a>
+
+        <div class="descripcion-item-destacado">
+          <h5><a href="/equipos-de-futbol">Equipos de fútbol</a></h5>
+        </div>
+      </div>     
+
+      <div class="item">
+        <a href="/equipo-natacion-2014"><img src="/imagenes/teamNatacion.jpg">
+
+        <div class="descripcion-item-destacado">
+          <h5><a href="/equipo-natacion-2014">Equipos de natación</a></h5>
+        </div>
+      </div>                             
+
+      <div class="item">
+        <a href="/pilates-2014"><img src="/imagenes/pilates.jpg"></a>
+
+        <div class="descripcion-item-destacado">
+          <h5><a href="/pilates-2014">Pilates</a></h5>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="/imagenes/zumba.jpg">
+
+        <div class="descripcion-item-destacado">
+          <h5>Zumba</h5>
+        </div>
+      </div>
+
+      <div class="item">
+        <a href="/yoga-2014"><img src="/imagenes/yoga.jpg"></a>
+
+        <div class="descripcion-item-destacado">
+          <h5><a href="/yoga-2014">Yoga</a></h5>
+        </div>
+      </div>
+
+      <div class="item">
+        <a href="/zumba-2014"><img src="/imagenes/zumba.jpg"></a>
+
+        <div class="descripcion-item-destacado">
+          <h5><a href="/zumba-2014">Zumba</a></h5>
+        </div>
+      </div>   
+
+      <div class="item">
+        <a href="/restaurante-santa-nonia"><img src="/imagenes/restaurantes.jpg"></a>
+
+        <div class="descripcion-item-destacado">
+          <h5><a href="/restaurante-santa-nonia">Restaurantes</a></h5>
+        </div>
+      </div>           
+
+    </div>
+
+    <script>
+      $(function() {
+        var $container = $('#contenedor-destacados').imagesLoaded( function() {
+          $container.isotope({
+            // options
+            itemSelector: '.item',
+            layoutMode: 'fitRows'
+          }); 
+        });
+      });  
+    </script>  
+
+<div class="row">
+
+<div class="large-6 columns">
+    <h2>Twitter</h2>
+
+    <div id="contenedor-twitter" class="contenedor">
+     
+      <a 
+      class="twitter-timeline" 
+      href="https://twitter.com/raeroclubleon/favorites" 
+      data-widget-id="572842584993988608"
+      data-chrome="nofooter noheader noborders transparent"
+      data-tweet-limit="5"
+      lang="es">
+      Tweets favoritos de @raeroclubleon
+      </a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+      </script>
+
+    </div>
+    </div>
+<div class="large-6 columns">
+    <h2>Actualidad</h2>
+
+    <div id="contenedor-actualidad" class="contenedor">
+
+<p><a href="/botillada-enero-2015">Sábado 24 de enero: botillada tradicional en la Virgen del Camino</a></p>
+<p><a href="/i-torneo-intersocial-tenis">I Torneo Intersocial de Tenis</a></p>
+<p><a href="/torneo-navidad-padel-2014/">I Torneo de Navidad de Pádel</a></p>
+<p><a href="/torneo-navidad-tenis-2014">I Torneo de Invierno de Tenis</a></p>
+<p><a href="/bingo-diciembre-2014">5 y 12 de diciembre: Bingo Especial</a></p>
+<p><a href="/exposicion-latido-calle">Exposición fotográfica "El latido de la calle"</a></p>
+<p><a href="natacion-intersociedades-2014">I Jornada Intersociedades de Natación</a></p>
+      </ul>
+
+    </div>    
+    </div>
+
+
+    </div>
+
+
+    <script>
+    window.setTimeout(function(){
+    $(".twitter-timeline").css("width", "100%");
+    $(".twitter-timeline").contents().find("head").append("<link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>");
+    $(".twitter-timeline").contents().find(".e-entry-title").css("font-family","'Lato'");
+    $(".twitter-timeline").contents().find(".e-entry-title").css("font-size","16px");
+    $(".twitter-timeline").contents().find(".e-entry-title").css("font-weight","300");
+    $(".twitter-timeline").contents().find(".e-entry-title").css("line-height","1.8rem");    
+    $(".twitter-timeline").contents().find(".tweet").css("font-family","'Lato'");
+    $(".twitter-timeline").contents().find(".h-entry tweet").css("margin-bottom","1rem");
+
+    
+  }, 1000);
+    </script>
+
+
+    <h2>Actividades aeronaúticas</h2>
+
+    <div id="galeriaActividadesAeronauticasHome" class="contenedor"></div>
+
+    <script>
+    $(document).ready(function () {
+        $("#galeriaActividadesAeronauticasHome").nanoGallery({
+            kind: 'picasa',
+            userID: '102635924016162950675',
+            maxWidth: 0,
+            colorSheme: 'light',
+            displayBreadcrumb: false,
+            album: '6095737158904369681',
+            thumbnailWidth: 'auto',
+            thumbnailHeight: 250,
+            thumbnailLabel: {
+                display: false,       
+            },      
+            viewerToolbar: {
+                display: false,
+                minimized: 'nextButton'
+            }
+        }); 
+    });    
+    </script>
+
+<!--    <div class="row">
+      <div class="large-12 columns">
+        <div class="panel">
+          <div class="row">
+
+            <div class="large-2 small-6 columns">
+              <img src="http://placehold.it/300x300&text=Site Owner">
+            </div>
+
+            <div class="large-10 small-6 columns">
+              <strong>This Site Is Managed By<hr/></strong>
+
+              Risus ligula, aliquam nec fermentum vitae, sollicitudin eget urna. Donec dignissim nibh fermentum odio ornare sagittis
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>-->
 
 
 
-  <h1 class="page-heading">Actualidad</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  
+  </div>
 
 </div>
+
+ 
+

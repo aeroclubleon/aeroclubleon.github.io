@@ -8,15 +8,129 @@
 }
 
 .item {
-	width: 33%;
-	padding:10px;
+	width: 20%;
+	padding: 25px;
 }
 
 .descripcion-item-destacado {
 	text-align: center;
-	margin-top: 10px;
+	margin-top: 15px;
 }
 
 .descripcion-item-destacado h5 {
 	font-size: 0.9rem;
+}
+
+
+.contenedor a, .contenedor a:visited, .contenedor a:hover, .contenedor a:focus {
+	color: #000
+}
+
+
+#contenedor-situaciones .item {
+	width: 50%;
+	padding: 20px;
+}
+
+body {
+	font-family: 'Lato', sans-serif !important;
+	background-color: #f2f2f2;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Lato', sans-serif !important;
+}
+
+#contenedor-general {
+	background-color: #FFF;
+}
+
+#contenedor-destacados .item img {
+	border-radius: 50%;
+}
+
+h1 {
+	font-weight: 300;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	font-size: 1.6em;
+}
+
+#contenedor-general h2 {
+	text-align: center;
+	font-weight: 300;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	font-size: 1.3em;
+	margin: 2rem auto 1rem;
+	border-bottom: 1px solid #EEE;
+}
+
+
+#contenedor-situaciones {
+	background-color: #666;
+	color: #FFF;
+	padding: 2rem;
+}
+
+
+#contenedor-situaciones h1 {
+	color: #FFF;
+	font-size: 1.2rem;
+	letter-spacing: 4px;
+}
+
+
+#contenedor-situaciones p {
+	margin-bottom: 0.3rem;
+}
+
+#contenedor-situaciones p strong {
+	font-weight: normal;
+}
+
+#contenedor-situaciones a, #contenedor-situaciones a:visited, 
+#contenedor-situaciones a:hover, #contenedor-situaciones a:focus {
+	color: #FFF;
+}
+
+
+#contenedor-avisos {
+	margin-bottom: 3rem;
+	text-align: center;
+	padding: 0 2rem;
+}
+
+
+#contenedor-actualidad {
+	margin: 1.7rem 0 3rem 0;
+	padding: 0 2rem;
+}
+
+#contenedor-actualidad p {
+	margin-bottom: 0.5rem;
+}
+
+#contenedor-twitter {
+	margin: 1.7rem 0 3rem 0;
+	padding: 0 2rem;
+}
+
+
+#contenedor-page {
+	padding: 2rem 4rem;
+}
+
+#contenedor-page h1 {
+	text-align: center; 
+}
+
+#galeriaActividadesAeronauticasHome {
+	padding: 1rem 4rem 3rem;
+}
+
+
+.nanoGalleryThumbnailContainer {
+border: none !important;
+background-color: transparent !important;
 }
