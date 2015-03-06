@@ -135,18 +135,17 @@ layout: home
 
 
     <script>
-    window.setTimeout(function(){
-    $(".twitter-timeline").css("width", "100%");
-    $(".twitter-timeline").contents().find("head").append("<link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>");
-    $(".twitter-timeline").contents().find(".e-entry-title").css("font-family","'Lato'");
-    $(".twitter-timeline").contents().find(".e-entry-title").css("font-size","16px");
-    $(".twitter-timeline").contents().find(".e-entry-title").css("font-weight","300");
-    $(".twitter-timeline").contents().find(".e-entry-title").css("line-height","1.8rem");    
-    $(".twitter-timeline").contents().find(".tweet").css("font-family","'Lato'");
-    $(".twitter-timeline").contents().find(".h-entry tweet").css("margin-bottom","1rem");
-
+      $(".twitter-timeline-rendered").waitUntilExists(function(){
+        $(".twitter-timeline").css("width", "100%");
+        $(".twitter-timeline").contents().find("head").append("<link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>");
+        $(".twitter-timeline").contents().find(".e-entry-title").css("font-family","'Lato'");
+        $(".twitter-timeline").contents().find(".e-entry-title").css("font-size","16px");
+        $(".twitter-timeline").contents().find(".e-entry-title").css("font-weight","300");
+        $(".twitter-timeline").contents().find(".e-entry-title").css("line-height","1.8rem");    
+        $(".twitter-timeline").contents().find(".tweet").css("font-family","'Lato'");
+        $(".twitter-timeline").contents().find(".h-entry tweet").css("margin-bottom","1rem");          
+      });    
     
-  }, 1000);
     </script>
 
 
