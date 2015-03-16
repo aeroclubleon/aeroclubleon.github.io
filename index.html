@@ -14,7 +14,7 @@ layout: home
 
     <div id="contenedor-avisos" class="contenedor">
 
-      <p>Se comunica a los sres. socios que debido al cambio de concesionario a partir del día 2 de febrero los servicios de cafetería y bar-restaurante de las instalaciones de la Virgen del Camino permanecerán cerrados hasta nuevo aviso. Rogamos disculpen las molestias.</p>
+      <p>Se comunica a los sres. socios que a partir del día 7 de marzo se reanudan los servicios de cafetería y de bar-restaurante de las instalaciones de la Virgen del Camino.</p>
 
     </div>
 
@@ -51,14 +51,6 @@ layout: home
 
         <div class="descripcion-item-destacado">
           <h5><a href="/pilates-2014">Pilates</a></h5>
-        </div>
-      </div>
-
-      <div class="item">
-        <img src="/imagenes/zumba.jpg">
-
-        <div class="descripcion-item-destacado">
-          <h5>Zumba</h5>
         </div>
       </div>
 
@@ -143,18 +135,17 @@ layout: home
 
 
     <script>
-    window.setTimeout(function(){
-    $(".twitter-timeline").css("width", "100%");
-    $(".twitter-timeline").contents().find("head").append("<link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>");
-    $(".twitter-timeline").contents().find(".e-entry-title").css("font-family","'Lato'");
-    $(".twitter-timeline").contents().find(".e-entry-title").css("font-size","16px");
-    $(".twitter-timeline").contents().find(".e-entry-title").css("font-weight","300");
-    $(".twitter-timeline").contents().find(".e-entry-title").css("line-height","1.8rem");    
-    $(".twitter-timeline").contents().find(".tweet").css("font-family","'Lato'");
-    $(".twitter-timeline").contents().find(".h-entry tweet").css("margin-bottom","1rem");
-
+      $(".twitter-timeline-rendered").waitUntilExists(function(){
+        $(".twitter-timeline").css("width", "100%");
+        $(".twitter-timeline").contents().find("head").append("<link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>");
+        $(".twitter-timeline").contents().find(".e-entry-title").css("font-family","'Lato'");
+        $(".twitter-timeline").contents().find(".e-entry-title").css("font-size","16px");
+        $(".twitter-timeline").contents().find(".e-entry-title").css("font-weight","300");
+        $(".twitter-timeline").contents().find(".e-entry-title").css("line-height","1.8rem");    
+        $(".twitter-timeline").contents().find(".tweet").css("font-family","'Lato'");
+        $(".twitter-timeline").contents().find(".h-entry tweet").css("margin-bottom","1rem");          
+      });    
     
-  }, 1000);
     </script>
 
 

@@ -66,6 +66,12 @@ h1 {
 	border-bottom: 1px solid #EEE;
 }
 
+#contenedor-general h3 {
+	font-size: 1.1rem;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin: 1.5rem 0rem 0.6rem 0rem;
+}
 
 #contenedor-situaciones {
 	background-color: #666;
@@ -82,7 +88,7 @@ h1 {
 
 
 #contenedor-situaciones p {
-	margin-bottom: 0.3rem;
+	margin-bottom: 0;
 }
 
 #contenedor-situaciones p strong {
@@ -163,3 +169,4 @@ background-color: transparent !important;
 		padding: 15px;
 	}
 }
+
