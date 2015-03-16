@@ -134,3 +134,32 @@ h1 {
 border: none !important;
 background-color: transparent !important;
 }
+
+
+@media only screen and (min-width: 70em) {
+	.item {
+		width: 20%;
+		padding: 25px;
+	}
+}
+
+@media only screen and (max-width: 64em) {
+	.item {
+		width: 25%;
+		padding: 15px;
+	}
+}
+
+@media only screen and (max-width: 40em) {
+	.item {
+		width: 33%;
+		padding: 15px;
+	}
+}
+
+@media only screen and (max-width: 30em) {
+	.item {
+		width: 50%;
+		padding: 15px;
+	}
+}
